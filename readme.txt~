@@ -1,0 +1,40 @@
+This script would be used to evaluate various test cases on your code.
+
+You would be evaluated on the total number of test cases PASSED.
+
+Use the script 'evaluate.sh' to test your code with demo output files.
+
+IMPORTANT: Last line of the output must end with \n
+
+We have provided demo files to test the code
+
+Script execution format : 
+#give execute permission to the script if needed.
+
+$ ./evaluate.sh <file-path> <input-file-path> <valid-output-file-path>
+
+Below are some examples to run the code.
+
+$ ./evaluate.sh codes/201505540.cpp in.txt out.txt
+PASSED
+
+$ ./evaluate.sh codes/201505541.cpp testcase1.in testcase1.out
+FAILED
+
+201505541.cpp fails because the last line of output does not end with '\n'
+
+Submission format:
+
+Replace 2016XXXX with your roll number.
+
+Make a folder : 2016XXXX_Assignment5/
+			-2016XXXX.cpp
+#where 2016XXXX.cpp is your code file, if you are using C language then it should be 2016XXXX.c
+
+Tar the folder as : tar cf 2016XXXX_Assignment5.tar.gz 2016XXXX_Assignment5
+
+Submit the above generate tar.gz file.
+
+IMPORTANT: Please obey the above submission format strictly, failure to do so would make our evaluation scripts to fail and ignore your submission.
+
+PS: The script is very loosely written and even loosely tested, so let me know if you get to know any bugs ;)
